@@ -14,6 +14,7 @@ dist-ssr
 .env
 .env.development
 .env.production
+js/config.js
 
 # Editor directories and files
 .vscode/*
