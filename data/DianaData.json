@@ -1,0 +1,127 @@
+{
+    "id": "persona1",
+    "personalInfo": {
+        "nombre": "Diana Paola Cerdas Álvarez",
+        "rol": "Desarrolladora en Formación",
+        "email": "paolacerdas345@gmail.com",
+        "telefono": "+506 8814-0600",
+        "ubicacion": "Guanacaste, Costa Rica",
+        "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+        "descripcion": "Estudiante con formación en aplicaciones informáticas y experiencia en el desarrollo de proyectos tecnológicos. Interesada en la creación de soluciones funcionales y eficientes, con conocimientos en desarrollo web y manejo de herramientas informáticas. Me caracterizo por ser responsable, organizada y con disposición para el aprendizaje continuo."
+    },
+    "educacion": [
+        {
+            "titulo": "Ingeniería en Sistemas de Información",
+            "institucion": "Universidad Nacional de Costa Rica",
+            "periodo": "2023 - Actualidad",
+            "descripcion": "Formación en desarrollo de software, programación, bases de datos y tecnologías web, con participación en proyectos prácticos."
+        },
+        {
+            "titulo": "Diploma en Programación de aplicaciones informáticas",
+            "institucion": "Universidad Nacional de Costa Rica",
+            "periodo": "Noviembre 2025",
+            "descripcion": "Diseño de experiencias, prototipado rápido y pruebas de usabilidad aplicadas al desarrollo de aplicaciones web"
+        }
+    ],
+    "experiencia": [
+        {
+            "puesto": "Ingeniero de Software",
+            "empresa": "ASADA de Juan Díaz",
+            "periodo": "2025 - Presente",
+            "descripcion": "Desarrollo de una aplicación web informativa y administrativa para la gestión de afiliados, proyectos, Solicitudes, y más funcionalidades administrativas. Colaboración con el equipo para optimizar procesos internos y mejorar la experiencia del usuario.",
+            "logros": [
+                "Participé en el desarrollo de una aplicación web completa para la gestión de afiliados, proyectos, solicitudes etc"
+            ]
+        }
+    ],
+    "habilidades": {
+        "tecnicas": [
+            {
+                "nombre": "HTML5 & CSS3",
+                "nivel": 80
+            },
+            {
+                "nombre": "Git & Version Control",
+                "nivel": 85
+            },
+            {
+                "nombre": "C++ & C#",
+                "nivel": 85
+            },
+            {
+                "nombre": "JavaScript & TypeScript",
+                "nivel": 86
+            },
+            {
+                "nombre": "SQL & Databases",
+                "nivel": 75
+            },
+            {
+                "nombre": "RESTful Apis",
+                "nivel": 75
+            }
+        ],
+        "blandas": [
+            "Comunicación efectiva",
+            "Trabajo en equipo",
+            "Resolución de problemas",
+            "Adaptabilidad",
+            "Gestión del tiempo"
+        ]
+    },
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "Avanzado - B1"
+        }
+    ],
+    "proyectos": [
+        {
+            "titulo": "Pagina infomrativa para la ASADA de Juan Díaz",
+            "descripcion": "Pagina para la ASADA de Juan Díaz, con información sobre la organización, servicios, contacto y mas. La página está diseñada para ser informativa y fácil de navegar, con un enfoque en la experiencia del usuario. Implementé un diseño responsivo para garantizar que la página se vea bien en dispositivos móviles y de escritorio. Además, integré funcionalidades administrativas para facilitar la gestión de contenido por parte del equipo de la ASADA.",
+            "tecnologias": [
+                "React",
+                "Tailwind CSS",
+                "TypeScript",
+                "Axios"
+            ],
+            "imagen": "/assets/image.png",
+            "enlace": "https://github.com/Orlando0409/Asada-Juan-Diaz-Informativa",
+            "video": null,
+            "destacado": true
+        },
+        {
+            "titulo": "The Sugar Vault",
+            "descripcion": "Sitio web desarrollado para una cafetería, donde se presentan sus productos, servicios y opiniones de clientes. El proyecto se enfocó en la maquetación, estructura visual y funcionalidad básica utilizando tecnologías web fundamentales.",
+            "tecnologias": [
+                "HTML5",
+                "CSS3",
+                "JavaScript"
+            ],
+            "imagen": "/assets/Sugar.png",
+            "enlace": "https://github.com/KarinaMD16/TheSugarVault",
+            "video": null,
+            "destacado": true
+        },
+        {
+            "titulo": "Juego de Trivia Universitaria con Ruleta",
+            "descripcion": "Juego interactivo de trivia universitaria que utiliza lógica en Prolog para gestionar preguntas por categoría y nivel de dificultad. Implementa un sistema de ruleta y asignación dinámica de puntos según respuesta correcta. La interfaz se diseñó con Tailwind CSS.",
+            "tecnologias": [
+                "Python",
+                "Prolog",
+                "Tailwind CSS"
+            ],
+            "imagen": "/assets/Trivia.png",
+            "enlace": "https://github.com/naila25/proyecto-paradigmas",
+            "video": null,
+            "destacado": true
+        }
+    ],
+    "redesSociales": {
+        "github": "https://github.com/PaolaAlvarez28"
+    }
+}

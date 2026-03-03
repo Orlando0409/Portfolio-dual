@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web profesional - Seleccione el perfil que desea explorar">
+    <link rel="icon" type="image/svg+xml" href="/assets/Sol_Luna.png">
+    <title>Selector de Portafolio | Portafolio Dual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="selector-page">
+    <!-- Header con título principal -->
+    <header class="selector-header">
+        <div class="container">
+            <h1 class="main-title">Bienvenido</h1>
+            <p class="main-subtitle">Selecciona el portafolio que deseas explorar</p>
+        </div>
+    </header>
+
+    <!-- Sección principal con las tarjetas de selección -->
+    <main class="selector-main">
+        <div class="container">
+            <div class="selector-grid">
+                <!-- Tarjeta Persona 1 -->
+                <article class="selector-card" data-person="DianaData"
+                    aria-label="Ver portafolio de Ana Sofía Rodríguez">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
+                            alt="Ana Sofía Rodríguez - Desarrolladora Frontend UX/UI" class="card-image" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-name">Ana Sofía Rodríguez</h2>
+                        <p class="card-role">Desarrolladora Frontend UX/UI</p>
+                        <p class="card-description">Especializada en diseño centrado en el usuario y desarrollo web
+                            moderno</p>
+                        <button class="btn btn-primary" aria-label="Acceder al portafolio de Ana Sofía Rodríguez">
+                            Ver Portafolio
+                            <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="card-hover-effect" aria-hidden="true"></div>
+                </article>
+
+                <!-- Tarjeta de la Persona 2 -->
+                <article class="selector-card" data-person="OrlandoData"
+                    aria-label="Ver portafolio de Luis Orlando Baltodano Espinoza">
+                    <div class="card-image-wrapper">
+                        <img src="/assets/Foto_Personal.jpg"
+                            alt="lUIS ORLANDO BALTODANO ESPINOZA - DESARROLLADOR FULL STACK" class="card-image"
+                            loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-name">Luis Orlando Baltodano Espinoza</h2>
+                        <p class="card-role">Desarrollador Full Stack</p>
+                        <p class="card-description">Enfocado en crear soluciones web robustas, escalables y accesibles
+                        </p>
+                        <button class="btn btn-primary"
+                            aria-label="Acceder al portafolio de Luis Orlando Baltodano Espinoza">
+                            Ver Portafolio
+                            <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="card-hover-effect" aria-hidden="true"></div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="selector-footer">
+        <div class="container">
+            <p>&copy; 2026 Portafolio Dual - Fundamentos de Programación Web</p>
+        </div>
+    </footer>
+
+    <!-- Loading overlay (se muestra durante la transición) -->
+    <div class="loading-overlay hidden" aria-live="polite" aria-busy="false">
+        <div class="loading-spinner">
+            <span class="sr-only">Cargando portafolio...</span>
+        </div>
+    </div>
+
+    <!-- JavaScript principal -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
