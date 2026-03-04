@@ -50,7 +50,7 @@ Para asegurar la calidad del software y una arquitectura robusta, se implementar
 ### Acceso a la Demo
 
 El proyecto se encuentra desplegado y funcional en el siguiente enlace:
-[Ver sitio en vivo](https://orlando0409.github.io/Portfolio-dual/)
+[Ver sitio en vivo](https://orlando0409.github.io/index.html)
 
 
 ## Autoría y Licencia
