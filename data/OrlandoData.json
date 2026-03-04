@@ -1,0 +1,94 @@
+{
+  "id": "persona2",
+  "personalInfo": {
+    "nombre": "Luis Orlando Baltodano Espinoza",
+    "rol": "Ingeniero en sistemas con énfasis en resolución de problemas y desarrollo de software",
+    "email": "obaltodano13@gmail.com",
+    "telefono": "+506 64095527",
+    "ubicacion": "Guanacaste, Costa Rica",
+    "foto": "/assets/Foto_Personal.jpg",
+    "descripcion": "Ingeniero en sistemas con pasión por la tecnología y la innovación. Enfocado en el desarrollo de software, resolución de problemas complejos y creación de soluciones eficientes. Comprometido con el aprendizaje continuo y la colaboración en equipos multidisciplinarios."
+  },
+  "educacion": [
+    {
+      "titulo": "Ingeniería en Sistemas de Información",
+      "institucion": "Universidad Nacional de Costa Rica",
+      "periodo": "Enero 2023 - Presente",
+      "descripcion": "Enfoque en desarrollo de software, bases de datos, redes y seguridad informática"
+    },
+    {
+      "titulo": "Diploma en Programación de aplicaciones informáticas",
+      "institucion": "Universidad Nacional de Costa Rica",
+      "periodo": "Noviembre 2025",
+      "descripcion": "Diseño de experiencias, prototipado rápido y pruebas de usabilidad"
+    }
+  ],
+    "experiencia": [
+    {
+      "puesto": "Ingeniero de Software",
+      "empresa": "ASADA de Juan Díaz",
+      "periodo": "2025 - Presente",
+      "descripcion": "Desarrollo de una aplicación web informativa y administrativa para la gestión de abonados, actas, invetnario, consulta de pagos y mas funcionalidades administrativas. Colaboración con el equipo para optimizar procesos internos y mejorar la experiencia del usuario.",
+       "logros": [
+        "Participé en el desarrollo de una aplicación web completa para la gestión de abonados, actas, inventario, proveedores, solicitudes proyectos etc",
+        "Implementé una funcionalidad en el sistema para la consulta de pagos en tiempo real",
+        "Optimicé la gestión administrativa con funcionalidades personalizadas para aumentar la eficiencia de los procesos internos"
+      ]
+    }
+  ],
+  "habilidades": {
+    "tecnicas": [
+      { "nombre": "HTML5 & CSS3", "nivel": 82 },
+      { "nombre": "JavaScript & TypeScript", "nivel": 88 },
+      { "nombre": "Git & Version Control", "nivel": 90 },
+      {"nombre": "C++ & C#", "nivel": 85},
+      {"nombre": "RESTful Apis", "nivel": 80},
+      {"nombre": "SQL & Databases", "nivel": 78}
+    ],
+    "blandas": [
+      "Liderazgo técnico",
+      "Adaptabilidad",
+      "Trabajo en equipo",
+      "Gestión del tiempo",
+      "Resolución de problemas"
+
+    ]
+  },
+  "idiomas": [
+    { "idioma": "Español", "nivel": "Nativo" },
+    { "idioma": "Inglés", "nivel": "Intermedio - B1" }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Pagina infomrativa para la ASADA de Juan Díaz",
+      "descripcion": "Pagina para la ASADA de Juan Díaz, con información sobre la organización, servicios, contacto y mas. La página está diseñada para ser informativa y fácil de navegar, con un enfoque en la experiencia del usuario. Implementé un diseño responsivo para garantizar que la página se vea bien en dispositivos móviles y de escritorio. Además, integré funcionalidades administrativas para facilitar la gestión de contenido por parte del equipo de la ASADA.",
+      "tecnologias": ["React", "Tailwind CSS", "TypeScript", "Axios"],
+      "imagen": "/assets/image.png",
+      "enlace": "https://github.com/Orlando0409/Asada-Juan-Diaz-Informativa",
+      "video": null,
+      "destacado": true
+    },
+    {
+      "titulo": "Videojuego web 2D de memoria y analisis",
+      "descripcion": "Videojuego 2D usando react y tailwind css, con un enfoque en la memoria y el análisis. Se trata de un juego en el que los jugadores deben recordar el patron de color de una serie de vasos que se genera de forma aleatoria. El juego te dice cuantos vasos has acertado mas no cuales, por lo que el jugador debe analizar su memoria para recordar cuales ha acertado y cuales no.",
+      "tecnologias": ["React", "Tailwind CSS", "ASP .NET Core", "SQLlite"],
+      "imagen": "/assets/Color_Nodes.png",
+      "enlace": "https://github.com/KarinaMD16/color-nodes",
+      "video": null,
+      "destacado": true
+    },
+    {
+      "titulo": "Plataforma para aplicar a un trabajo",
+      "descripcion": "Plataforma web para aplicar a un trabajo, con un enfoque en la experiencia del usuario y la eficiencia del proceso de aplicación. La plataforma permite a los usuarios crear un perfil, con sus habilidades y aplicar a ofertas de trabajo publicadas por las empresas. Implementa un sistema de filtrado para que los usuarios puedan buscar ofertas de trabajo según sus habilidades.",
+      "tecnologias": ["React", "Tailwind CSS", "ASP .NET Core"],
+      "imagen": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=500&fit=crop",
+      "enlace": "https://github.com/KarinaMD16/Candidate-Project",
+      "video": null,
+      "destacado": false
+    }
+  ],
+  "redesSociales": {
+    "github": "https://github.com/Orlando0409",
+    "linkedin": "https://linkedin.com/in/orlando-baltodano"
+  }
+}
