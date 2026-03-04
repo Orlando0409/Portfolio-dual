@@ -57,7 +57,7 @@ function handlePortfolioSelection(card) {
   
   // Navegar después de un momento para que se vea el efecto
   setTimeout(() => {
-    globalThis.location.href = 'portafolio.html';
+    globalThis.location.href = 'portfolio.html';
   }, 300);
 }
 
