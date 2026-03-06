@@ -38,27 +38,27 @@
         "tecnicas": [
             {
                 "nombre": "HTML5 & CSS3",
-                "nivel": 80
+                "nivel": 100
             },
             {
                 "nombre": "Git & Version Control",
-                "nivel": 85
+                "nivel": 100
             },
             {
                 "nombre": "C++ & C#",
-                "nivel": 85
+                "nivel": 100
             },
             {
                 "nombre": "JavaScript & TypeScript",
-                "nivel": 86
+                "nivel": 100
             },
             {
                 "nombre": "SQL & Databases",
-                "nivel": 75
+                "nivel": 100
             },
             {
                 "nombre": "RESTful Apis",
-                "nivel": 75
+                "nivel": 100
             }
         ],
         "blandas": [

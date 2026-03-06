@@ -69,7 +69,7 @@
     }
   }
   
-  // Renderizar info personal en la secci\u00f3n hero
+  // Renderizar info personal en la sección hero
   function renderPersonalInfo(personalInfo) {
     const heroImage = document.getElementById('hero-image');
     if (heroImage) {
@@ -160,7 +160,6 @@
         <div class="skill-item">
           <div class="skill-header">
             <span class="skill-name">${skill.nombre}</span>
-            <span class="skill-level">${skill.nivel}%</span>
           </div>
           <div class="skill-bar">
             <div class="skill-progress" style="--skill-width: ${skill.nivel}%"></div>
