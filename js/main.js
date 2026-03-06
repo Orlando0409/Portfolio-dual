@@ -297,6 +297,41 @@ async function sendEmailWithEmailJS(form) {
   return response;
 }
 
+// Mostrar mensaje de éxito
+function showSuccessMessage(form) {
+  let successDiv = form.querySelector('.form-success-message');
+  
+  if (!successDiv) {
+    successDiv = document.createElement('div');
+    successDiv.className = 'form-success-message';
+    successDiv.style.cssText = `
+      padding: 15px;
+      margin-top: 15px;
+      background-color: #d4edda;
+      border: 1px solid #c3e6cb;
+      border-radius: 8px;
+      color: #155724;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    `;
+    form.appendChild(successDiv);
+  }
+  
+  successDiv.innerHTML = `
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>¡Mensaje enviado correctamente! Te responderemos pronto.</span>
+  `;
+  successDiv.style.display = 'flex';
+  
+  setTimeout(() => {
+    successDiv.style.display = 'none';
+  }, 5000);
+}
+
 
 
 // Mostrar mensaje de error en el formulario
