@@ -196,7 +196,7 @@ function initMobileMenu() {
   });
 }
 
-// === FORMULARIO DE CONTACTO ===
+//  FORMULARIO DE CONTACTO 
 
 function initContactForm() {
   const form = document.getElementById('contact-form');
@@ -270,7 +270,7 @@ function initContactForm() {
 // Enviar email usando EmailJS
 async function sendEmailWithEmailJS(form) {
   const formData = new FormData(form);
-  
+   //obtiene datos del formulario
   // Preparar datos para EmailJS con los nombres de variables de la plantilla
   const templateParams = {
     from_name: formData.get('name'),

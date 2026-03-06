@@ -119,6 +119,20 @@
             "enlace": "https://github.com/naila25/proyecto-paradigmas",
             "video": null,
             "destacado": true
+        },
+        {
+            "titulo": "Panel Administrativo para la ASADA de Juan Díaz",
+            "descripcion": "Panel administrativo para la ASADA de Juan Díaz, con funcionalidades para gestionar información, usuarios y contenido.",
+            "tecnologias": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Axios"
+            ],
+            "imagen": "/assets/Administrativa.png",
+            "enlace": "https://github.com/Orlando0409/SAGA-JD-Administrativa",
+            "video": null,
+            "destacado": true
         }
     ],
     "redesSociales": {
